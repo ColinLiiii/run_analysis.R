@@ -1,0 +1,18 @@
+UCI HAR Dataset (Tidy)
+This dataset represents an aggregation of the Human Activity Recognition Using Smartphones Data Set.
+
+Study design
+
+The raw data for this study was downloaded from this location as part of the course project for the Getting and Cleaning Data course hosted at Coursera.
+
+Code book
+
+The dataset consists of a single table of 180 observations, encoded as a CSV file named UCI HAR Dataset (Tidy).csv.
+
+Each obersvation includes the following variables:
+
+Subject. The subject who performed the activity, an integer ID ranging from 1 to 30.
+Activity. The activity being performed, a categorical variable drawn from {LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS}.
+A 66-feature vector of variables with names of the form signal-function[-axis]. Examples: tBodyAcc-mean()-X & tGravityAccMag-std().
+Consult the original study for detailed information regarding these variables.
+Each value represents the mean of the associated variable aggregated over all observations for the given subject & activity.
